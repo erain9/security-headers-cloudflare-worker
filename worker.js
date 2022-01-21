@@ -4,7 +4,8 @@ const securityHeaders = {
         "X-Xss-Protection": "1; mode=block",
         "X-Frame-Options": "DENY",
         "X-Content-Type-Options": "nosniff",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "microphone 'none'; geolocation 'none'"
     },
     sanitiseHeaders = {
         Server: ""
